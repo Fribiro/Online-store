@@ -3,10 +3,63 @@
 :root {
     --primary-color:#000; 
     --gray:#5C5C5C;
-    --white:;
+    --ghostwhite:#f8f8ff;
     --abril:'Abril Fatface',cursive;
     --fugaz:'Fugaz One',cursive;
     --lobster:'Lobster',cursive;
 }
 
-.primary
+.primary-color{
+    color: var(--ghostwhite);
+}
+.bg-primary-color{
+    background-color:var(--primary-color);
+}
+.text-color{
+    color: var(--gray);
+}
+.font-abril{
+    font-family: var(--abril);
+}
+.font-fugaz {
+    font-family: var(--fugaz);
+}
+.font-lobster {
+    font-family: var(--lobster);
+}
+
+/*Header*/
+header{
+    background-color: var(--primary-color);
+    font-family: var(--abril);
+}
+header .site-title{
+    font-family: var(--abril);  
+}
+.container .dropdown-toggle,
+.container .dropdown-item{
+    font-size: 0.7em;
+} 
+
+.header-links a{
+    font-size: 0.9em;
+    text-decoration: none;
+    color: var(--ghostwhite);
+}
+
+/*Navigation Menu*/
+.navbar-nav{
+    padding: 0.6em 0em;
+    margin-right: 2rem !important;
+}
+
+.navbar .nav-link{
+    font-size: 1.2em;
+    color: var(--gray);
+}
+.navbar-nav .nav-item .nav-link{
+    padding: 0 1.3em;
+}
+.navbar-nav .basket-icon{
+    
+}
